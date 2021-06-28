@@ -4,13 +4,16 @@
   "description": "discord bot sample",
   "main": "index.js",
   "dependencies": {
+    "@discordjs/opus": "^0.5.3",
     "discord.js": "^12.5.3",
     "dotenv": "^10.0.0",
+    "ffmpeg-static": "^4.4.0",
     "fs": "0.0.1-security",
     "node-fetch": "^2.6.1",
     "sequelize": "^6.6.2",
     "sqlite3": "^5.0.2",
-    "twitter-api-v2": "^1.1.0"
+    "twitter-api-v2": "^1.1.0",
+    "ytdl-core": "^4.8.3"
   },
   "devDependencies": {},
   "scripts": {
